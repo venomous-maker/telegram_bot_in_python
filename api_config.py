@@ -18,7 +18,7 @@ class config_:
 		r = requests.post(url)
 		return json.loads(r.content)
 
-NGROK_TOKEN = "1fOk1IbTTrO7B1rtKB1igwpJ5PW_6Pzyc7Wyrg59VfdJPstd3"
+NGROK_TOKEN = "1fOk1IbTTrO7B1rtKB1igwpJ5****************"#Change this
 def web_hook(TOKEN, PORT, SERVICE):
     try:
         if py_ngrok.ngrok_link(NGROK_TOKEN, PORT, SERVICE) != 0:
