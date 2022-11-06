@@ -23,6 +23,6 @@
 #  
 
 database = 'telegram'
-user = 'root'
-password = '*123*VYBZ'
+user = 'root'#mysql user
+password = 'root'#mysql password
 host = 'localhost'
