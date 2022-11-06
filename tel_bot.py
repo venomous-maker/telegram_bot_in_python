@@ -6,7 +6,7 @@ import requests
 import json
 import conn
 
-TOKEN = "5335935069:AAFd6gr4ClCTNJGHOshSoFKknamoclAQuro"
+TOKEN = "5335*****:AAFd6gr4ClCTNJGHOshSoF*******"#bot token here
 app = Flask(__name__)
 def tel_parse_message(message, key):
     print("message-->",message)
